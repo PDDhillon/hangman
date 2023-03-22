@@ -1,4 +1,4 @@
-while(True):
+while True:
     guess = input("Please enter a single letter.")
     if(len(guess) == 1 and str.isalpha(guess)):
         break
