@@ -17,7 +17,8 @@ class Hangman():
                 if(self.word[x] == guess):
                     self.word_guessed[x] = guess
             self.num_letters -= 1
-            #print(self.word_guessed)
+            print(self.word_guessed)
+            print(self.list_of_guesses)
         else:
             self.num_lives -= 1
             print(f"Sorry, {guess} is not in the word.")
@@ -34,6 +35,3 @@ class Hangman():
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)
                 break
-
-test = Hangman(["lemon", "lime", "mango", "pineapple", "passionfruit"],1)
-test.ask_for_input()
