@@ -18,3 +18,10 @@ A new "check_guess" function has been created to verify whether the guessed char
 Milestone 4 taught the theory and principles of Object oriented programming and the 4 main principles (Inheritance, Abstraction, Encapsulation and Polymorphism). These principles were put into use, as we abstracted and encapsulated previous functions to create a new Hangman class. 
 
 This class now housed the functions to ask for input, as well as to check the guesses that the user inputted. On top of this, class attributes were added to facilitate a full playthrough of the game such as : number of lives, guessed letters and how much of the word is left to be guessed.
+
+# Milestone 5
+Rounding off the project, I took everything that we had iteratively created across previous milestones and collated them in my milestone_5.py file. This class was then instantiated into an object stored in my variable game. An infinite while loop was created and the game's ask for input function was called repeatedly. The only stopping mechanisms were whether the lives were == 0 OR there were no more letters to guess.
+
+Overall, I have learnt how to utilise the fundamental concepts of python, in order to create a functioning game. As an experienced developer, the prerequisites have really helped to see some of the niche elements in python such as Mixins and Magic Methods.
+
+Happy Gaming!
