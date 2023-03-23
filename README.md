@@ -13,3 +13,8 @@ Next using the built in input function, I prompted the user to give me a single 
 Building upon the code written in milestone 2, a few extra layers and abstractions were created. A new "ask_for_input" method is used to get user input. This is performed in a while loop, which is only broken when a correct input is passed. This must be a single character and alphanumeric, as in milestone 2.
 
 A new "check_guess" function has been created to verify whether the guessed character is in fact inside of the main word, selected at the beginning. The guessed character is converted to lowercase and then checked.
+
+# Milestone 4
+Milestone 4 taught the theory and principles of Object oriented programming and the 4 main principles (Inheritance, Abstraction, Encapsulation and Polymorphism). These principles were put into use, as we abstracted and encapsulated previous functions to create a new Hangman class. 
+
+This class now housed the functions to ask for input, as well as to check the guesses that the user inputted. On top of this, class attributes were added to facilitate a full playthrough of the game such as : number of lives, guessed letters and how much of the word is left to be guessed.
